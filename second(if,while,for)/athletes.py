@@ -17,37 +17,37 @@ else:
         print("You're in Younger group")
     elif 16 <= age <= 17:
         print("You're in Adolescent group", end = ' ')
-        if weight <= 52:
+        if weight < 52:
             print("& in the lightest weight category")
-        elif weight <= 57:
+        elif weight < 57:
             print("& in the light weight category")
-        elif weight <= 70:
+        elif weight < 70:
             print("& in the average weight category")
-        elif weight <= 80:
+        elif weight < 80:
             print("& in the heavy weight category")
         else:
             print("& in the 2nd heavy weight category")
     elif 18 <= age <= 19:
         print("You're in Junior group", end = ' ')
-        if weight <= 54:
+        if weight < 54:
             print("& in the lightest weight category")
-        elif weight <= 60:
+        elif weight < 60:
             print("& in the light weight category")
-        elif weight <= 75:
+        elif weight < 75:
             print("& in the average weight category")
-        elif weight <= 81:
+        elif weight < 81:
             print("& in the heavy weight category")
         else:
             print("& in the 2nd heavy weight category")
     elif age >= 20:
         print("You're in Adult group", end = ' ')
-        if weight <= 54:
+        if weight < 54:
             print("& in the lightest weight category")
-        elif weight <= 60:
+        elif weight < 60:
             print("& in the light weight category")
-        elif weight <= 75:
+        elif weight < 75:
             print("& in the average weight category")
-        elif weight <= 81:
+        elif weight < 81:
             print("& in the heavy weight category")
         else:
             print("& in the 2nd heavy weight category")
