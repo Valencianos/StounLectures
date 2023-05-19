@@ -3,12 +3,14 @@
 # Если число кратно и 3, и 5, то программа должна выводить слово «FizzBuzz»
 
 num = int(input('Enter n = '))
+my_list = []
 for i in range(1, num + 1):
     if not i % 3 and not i % 5:
-        print('FizzBuzz')
+        my_list.append("FizzBuzz")
     elif not i % 3:
-        print('Fizz')
+        my_list.append("Fizz")
     elif not i % 5:
-        print('Buzz')
+        my_list.append("Buzz")
     else:
-        print(i)
+        my_list.append(str(i))
+print(my_list)
